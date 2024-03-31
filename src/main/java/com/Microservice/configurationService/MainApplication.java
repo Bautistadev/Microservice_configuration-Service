@@ -6,7 +6,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@EnableConfigServer
+@EnableConfigServer /**Habilitamos servidor de configuracion*/
 @ComponentScan(basePackages = {"com.Microservice.configurationService"})
 public class MainApplication {
 
