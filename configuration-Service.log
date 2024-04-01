@@ -789,3 +789,8 @@ Caused by: org.eclipse.jgit.errors.NoRemoteRepositoryException: ${git_uri}: not 
 2024-03-31T22:30:57.814-03:00  INFO 10923 --- [config-server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=36a54550-ff61-368f-8cb8-35a952324f0d
 2024-03-31T22:31:01.444-03:00  INFO 10923 --- [config-server] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
 2024-03-31T22:31:01.529-03:00  INFO 10923 --- [config-server] [main] c.M.c.MainApplicationTests               : Started MainApplicationTests in 5.966 seconds (process running for 7.643)
+2024-03-31T22:39:14.179-03:00  INFO 11567 --- [config-server] [main] c.M.c.MainApplicationTests               : Starting MainApplicationTests using Java 21.0.2 with PID 11567 (started by bautistabasilio in /Users/bautistabasilio/eclipse/Microservice-Aplication/configuration-Service)
+2024-03-31T22:39:14.186-03:00  INFO 11567 --- [config-server] [main] c.M.c.MainApplicationTests               : No active profile set, falling back to 1 default profile: "default"
+2024-03-31T22:39:15.801-03:00  INFO 11567 --- [config-server] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=36a54550-ff61-368f-8cb8-35a952324f0d
+2024-03-31T22:39:19.548-03:00  INFO 11567 --- [config-server] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-03-31T22:39:19.636-03:00  INFO 11567 --- [config-server] [main] c.M.c.MainApplicationTests               : Started MainApplicationTests in 6.012 seconds (process running for 10.603)
