@@ -3,6 +3,10 @@ pipeline{
     tools{
         maven 'M3'
     }
+    environment{
+        //variables de entorno
+        git_uri='https://github.com/Bautistadev/MIcroService_properties-configuration'
+    }
     stages{
         stage('checkout'){
             steps{
@@ -11,12 +15,12 @@ pipeline{
         }
         stage('build'){
             steps{
-                sh 'mvn clean package -DskipTest=true -f pom.xml'
+                sh 'mvn clean package -DskipTest=true -f pom.xml -Dmy.env.variable=$git_uri'
             }
         }
         stage('test'){
             steps{
-                sh 'mvn test'
+                sh 'mvn test -Dmy.env.variable=$git_uri'
             }
         }
         stage('docker build'){
